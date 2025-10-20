@@ -1,2 +1,47 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/OePokTVg)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20702380&assignment_repo_type=AssignmentRepo)
+﻿# desafio-asyncstorage-BrunoCSoares
+
+Repositório com o projeto React Native do desafio de AsyncStorage.
+
+Conteúdo
+- `AppAsyncStorage/`: código-fonte do app (React Native + TypeScript)
+
+Pré-requisitos
+- Node.js (LTS)
+- npm ou Yarn
+- Para Android: Android SDK e emulador configurado
+- Para iOS: Xcode (somente macOS)
+
+Instalação
+```powershell
+cd AppAsyncStorage
+npm install
+# ou
+yarn
+```
+
+Executando (Android)
+```powershell
+npx react-native run-android
+```
+
+Executando (iOS  macOS)
+```bash
+npx pod-install ios
+npx react-native run-ios
+```
+
+Observações
+- O app usa `@react-native-async-storage/async-storage`.
+- Para desenvolvimento assegure-se de ter variáveis de ambiente do Android configuradas (ANDROID_HOME, PATH).
+- Testado com versões padrão do React Native  se quiser, adiciono a versão específica do `package.json`.
+
+Estrutura
+- `AppAsyncStorage/`  app (TypeScript)
+  - `App.tsx`  ponto de entrada
+  - `screens/`  telas do app
+
+Licença
+- Sem licença definida  consulte o proprietário do código. Posso adicionar uma LICENSE (MIT) se desejar.
+
+Contato
+- Bruno (GitHub: @BrunoCSoares)
